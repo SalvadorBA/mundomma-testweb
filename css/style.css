@@ -1,0 +1,54 @@
+.efectoCarousel{
+    margin: 16px;
+    width:600px;
+    height: 600px;
+}
+body{
+    background-color: rgb(219, 61, 87);
+}
+.segundoFondo{
+    margin: auto;
+    margin-top: 15px;
+    background-color: rgb(163, 11, 36);
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+.margenFormulario{
+              margin: 45px;
+              border: 3px solid rgb(78, 69, 69);
+              width: 500px;
+              height: 500px;
+}
+
+
+
+
+.flexBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 250px;
+    height: 400px;
+    background-color: rgb(255, 244, 244);
+    margin: 30px;
+    border-radius: 10px;
+    border: 3px solid rgb(245, 10, 10);
+  }
+
+  .iconos{
+    transition: .5s;
+    margin: 5px auto;
+        display:block;;
+  }
+  .iconos:hover{
+    fill: rgb(145, 19, 19);
+    height: 50px;
+    width: 50px;
+  }
+  .cambiarColorText:hover{
+    color: rgb(22, 22, 21);
+  }
